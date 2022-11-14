@@ -10,29 +10,38 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/adc6e39057.js" crossorigin="anonymous"></script>
 
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 </head>
 <body>
 
-  <nav>
-    <img src="./images/logo.svg" alt="Huddle Logo">
-  </nav>
-  
-  <main>
-    <img src="./images/illustration-mockups.svg" alt="Illustration of the mockups">
+  <div class="container">
+    <nav>
+      <img 
+        src="./images/logo.svg" 
+        alt="Huddle Logo"
+        class="logo"
+      >
+    </nav>
+    
+    <main>
+      <img 
+        src="./images/illustration-mockups.svg" 
+        alt="Illustration of the mockups"
+        class="mockup-illustration"  
+      >
 
-    <div class="message">
-      <h1>Build The Community Your Fans Will Love</h1>
-      
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion.</p>
-      
-      <button>Register</button>
-    </div>
+      <div class="message">
+        <h1>Build The Community Your Fans Will Love</h1>
+        
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion.</p>
+        
+        <button class="register-button">Register</button>
+      </div>
+    </main>
 
     <div class="social-buttons">
       <a href="#"><i class="fa fa-facebook"></i></a>
@@ -40,12 +49,12 @@
       <a href="#"><i class="fa fa-instagram"></i></a>
     </div>
 
-  </main>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Carlos Castillo</a>.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
