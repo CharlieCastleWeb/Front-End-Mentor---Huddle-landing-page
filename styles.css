@@ -120,6 +120,10 @@ main {
     justify-content: center;
 }
 
+.social-media-link {
+    display: none;
+}
+
 .social-buttons a {
     color: white;
     border: 1px solid white;
