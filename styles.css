@@ -121,7 +121,9 @@ main {
 }
 
 .social-media-link {
-    display: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
 }
 
 .social-buttons a {
