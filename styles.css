@@ -120,12 +120,6 @@ main {
     justify-content: center;
 }
 
-.social-media-link {
-    visibility: hidden;
-    height: 0;
-    width: 0;
-}
-
 .social-buttons a {
     color: white;
     border: 1px solid white;
